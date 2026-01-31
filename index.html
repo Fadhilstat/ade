@@ -3,55 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Love Story</title>
+    <title>Valentine's Memory</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <div id="heart-container" class="heart-container"></div>
+    <div class="container">
+        
+        <section class="hero-section">
+            <div class="hero-text">
+                <span class="brand-tag">❤️ OUR STORY</span>
+                <h1>Happy Valentine's<br>Day, My Love</h1>
+                <p>
+                    Ini bukan sekadar website, ini adalah museum kecil untuk semua tawa, perjalanan, dan momen konyol yang kita lewati bersama.
+                    I love you, always.
+                </p>
+                <a href="#gallery-root" class="cta-button">Lihat Kenangan Kita</a>
+            </div>
+            
+            <div class="hero-image">
+                <div class="floating-illustration">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2904/2904973.png" alt="Love Balloons">
+                </div>
+            </div>
+        </section>
 
-    <section class="hero">
-        <div class="hero-text">
-            <h1>Happy Valentine's Day</h1>
-            <p class="subtitle">Setiap detik bersamamu adalah kenangan favoritku.</p>
-            <p class="love-letter">
-                Untuk kamu yang selalu membuat hariku lebih cerah. 
-                Web ini berisi kepingan kenangan kita. 
-                Semoga kamu suka ya! <i class="fas fa-heart"></i>
-            </p>
-            <a href="#gallery-root" class="scroll-btn">Lihat Kenangan Kita</a>
-        </div>
-        <div class="hero-image">
-            <img src="images/main-photo.jpg" alt="Foto Kita Berdua">
-            <div class="hero-frame"></div>
-        </div>
-    </section>
+        <section id="gallery-root" class="gallery-grid">
+            </section>
 
-    <main id="gallery-root" class="gallery-container">
-        </main>
+    </div>
 
     <div id="modal" class="modal">
         <span class="close-modal">&times;</span>
         <div class="modal-content">
-            <div class="modal-body">
-                <div class="modal-left">
+            <div class="modal-layout">
+                <div class="modal-img-wrapper">
                     <img id="modal-img" src="" alt="">
                 </div>
-                <div class="modal-right">
-                    <span id="modal-tag" class="category-tag">Category</span>
-                    <h2 id="modal-title">Judul Foto</h2>
-                    <p id="modal-desc">Deskripsi cerita...</p>
-                    
+                <div class="modal-info">
+                    <span id="modal-category" class="tag">Category</span>
+                    <h2 id="modal-title">Judul</h2>
+                    <p id="modal-desc">Deskripsi...</p>
                     <div class="related-section">
-                        <h3>Kenangan Serupa</h3>
-                        <div id="related-images" class="related-grid"></div>
+                        <h4>Momen Terkait:</h4>
+                        <div id="related-images" class="related-row"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div id="heart-bg" class="heart-bg"></div>
 
     <script src="script.js"></script>
 </body>
