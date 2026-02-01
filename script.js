@@ -29,25 +29,12 @@ const memories = [
     { id: 20, cat: "Margo", title: "Other Avatar", desc: "Ini gila ade cantiknya masyaallah", url: "images/Nonton5.jfif" },
 
     // CAT 5: Food
-    { id: 21, cat: "Food", title: "Ultah", desc: "Happy Birthday.", url: "https://images.unsplash.com/photo-1530103862676-de3c9da59af7?w=600" },
-    { id: 22, cat: "Food", title: "Anniv", desc: "Happy Anniv.", url: "https://images.unsplash.com/photo-1464349153735-7db50ed83c84?w=600" },
-    { id: 23, cat: "Food", title: "New Year", desc: "Kembang api.", url: "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?w=600" },
-    { id: 24, cat: "Food", title: "Lebaran", desc: "Maaf lahir batin.", url: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600" },
-    { id: 25, cat: "Food", title: "Wisuda", desc: "Congrats.", url: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600" },
+    { id: 21, cat: "Food", title: "Pose Gemes", desc: "Ade lucu banget ci", url: "images/Makan1.jfif" },
+    { id: 22, cat: "Food", title: "Wide Angle", desc: "Gemasnya ade masyaallah", url: "images/Makan2.jfif" },
+    { id: 23, cat: "Food", title: "Another Wide Angle", desc: "Ade super duper menggemaskan", url: "images/Makan3.jfif" },
+    { id: 24, cat: "Food", title: "Gemes", desc: "Masyaallah senyuman ade", url: "images/Makan3.jfif" },
+    { id: 25, cat: "Food", title: "Dari Atas", desc: "Ade ucul banget", url: "images/Makan5.jfif" },
 
-    // CAT 6: Pets
-    { id: 26, cat: "Pets", title: "Kucing", desc: "Meow.", url: "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600" },
-    { id: 27, cat: "Pets", title: "Tidur", desc: "Zzz.", url: "https://images.unsplash.com/photo-1541781777631-faaf4b22b950?w=600" },
-    { id: 28, cat: "Pets", title: "Main", desc: "Lari-lari.", url: "https://images.unsplash.com/photo-1495360019602-e001922a4452?w=600" },
-    { id: 29, cat: "Pets", title: "Makan", desc: "Laper.", url: "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=600" },
-    { id: 30, cat: "Pets", title: "Lucu", desc: "Gemoy.", url: "https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=600" },
-
-    // CAT 7: Aesthetics
-    { id: 31, cat: "Aesthetic", title: "Bunga", desc: "Cantik.", url: "https://images.unsplash.com/photo-1490750967868-58cb75069ed6?w=600" },
-    { id: 32, cat: "Aesthetic", title: "Langit", desc: "Senja.", url: "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=600" },
-    { id: 33, cat: "Aesthetic", title: "Jalan", desc: "Sepi.", url: "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=600" },
-    { id: 34, cat: "Aesthetic", title: "Kopi", desc: "Pahit.", url: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600" },
-    { id: 35, cat: "Aesthetic", title: "Buku", desc: "Membaca.", url: "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600" }
 ];
 
 // RENDER GALLERY
@@ -123,5 +110,6 @@ setInterval(createHeart, 500);
 
 // Run
 init();
+
 
 
