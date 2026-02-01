@@ -8,32 +8,32 @@ const memories = [
     { id: 5, cat: "Mini Mania", title: "Berasa Prewed", desc: "Masyaallah bismillah prewed di korea aamiin.", url: "images/Korea5.jfif" },
 
     // CAT 2: Traveling
-    { id: 6, cat: "Traveling", title: "Pantai", desc: "Pasir putih.", url: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600" },
-    { id: 7, cat: "Traveling", title: "Gunung", desc: "Dingin banget.", url: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600" },
-    { id: 8, cat: "Traveling", title: "Roadtrip", desc: "Nyanyi di mobil.", url: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600" },
-    { id: 9, cat: "Traveling", title: "Kota Tua", desc: "Jalan-jalan sejarah.", url: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600" },
-    { id: 10, cat: "Traveling", title: "Camping", desc: "Api unggun.", url: "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=600" },
+    { id: 6, cat: "Traveling", title: "Mendayung", desc: "Mas dan ade mendayung", url: "images/Seribu1.jfif" },
+    { id: 7, cat: "Traveling", title: "Ade di Perahu", desc: "Masyaallah ade cantiknya.", url: "images/Seribu2.jfif" },
+    { id: 8, cat: "Traveling", title: "Pantai", desc: "Kita selfie di pinggir pantai.", url: "images/Seribu3.jfif" },
+    { id: 9, cat: "Traveling", title: "Dalam Kapal", desc: "Ade selfie lucu banget", url: "images/Seribu4.jfif" },
+    { id: 10, cat: "Traveling", title: "Dalam Kapal 2", desc: "Senyum ade masyaallah", url: "images/Seribu5.jfif" },
 
-    // CAT 3: Kuliner
-    { id: 11, cat: "Kuliner", title: "Pizza", desc: "Enak banget.", url: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600" },
-    { id: 12, cat: "Kuliner", title: "Ice Cream", desc: "Manis.", url: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=600" },
-    { id: 13, cat: "Kuliner", title: "Sushi", desc: "Favorit kamu.", url: "https://images.unsplash.com/photo-1556910103-1c02745a30bf?w=600" },
-    { id: 14, cat: "Kuliner", title: "Street Food", desc: "Jajan terus.", url: "https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=600" },
-    { id: 15, cat: "Kuliner", title: "Fine Dining", desc: "Sekali-kali.", url: "https://images.unsplash.com/photo-1550966871-3ed3c47e2ce2?w=600" },
+    // CAT 3: Simple but Meaningful
+    { id: 11, cat: "Simple but Meaningful", title: "Bunga", desc: "Cantiknya ade mengalahkan keindahan bunga", url: "images/Simple1.jfif" },
+    { id: 12, cat: "Simple but Meaningful", title: "Lucuk", desc: "Senyum ade masyaallah banget", url: "images/Simple2.jfif" },
+    { id: 13, cat: "Simple but Meaningful", title: "GEmesh", desc: "Masyaallah ade", url: "images/Simple3.jfif" },
+    { id: 14, cat: "Simple but Meaningful", title: "Glasees", desc: "Ade lucu banget kacamatanya", url: "images/Simple4.jfif" },
+    { id: 15, cat: "Simple but Meaningful", title: "Glasees 2", desc: "Ade lucu banget kacamatanya plis", url: "images/Simple4.jfif" },
 
-    // CAT 4: Random
-    { id: 16, cat: "Random", title: "Ketawa", desc: "Lucu banget.", url: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=600" },
-    { id: 17, cat: "Random", title: "Topeng", desc: "Iseng.", url: "https://images.unsplash.com/photo-1531747056595-07f6cbbe10fd?w=600" },
-    { id: 18, cat: "Random", title: "Hujan", desc: "Neduh.", url: "https://images.unsplash.com/photo-1519699047748-40ba52c79303?w=600" },
-    { id: 19, cat: "Random", title: "Filter IG", desc: "Aneh.", url: "https://images.unsplash.com/photo-1516726817505-f5ed825624d8?w=600" },
-    { id: 20, cat: "Random", title: "Joget", desc: "Tiktokan.", url: "https://images.unsplash.com/photo-1545996124-0501ebae84d0?w=600" },
+    // CAT 4: Margo
+    { id: 16, cat: "Margo", title: "Photobox", desc: "Lucu banget", url: "images/Nonton1.jfif" },
+    { id: 17, cat: "Margo", title: "Another Photobox", desc: "Masyaallah", url: "images/Nonton2.jfif" },
+    { id: 18, cat: "Margo", title: "Avatar", desc: "Ade lucu banget", url: "images/Nonton3.jfif" },
+    { id: 19, cat: "Margo", title: "Another Avatar", desc: "Sumpah ade masyaallah cantiknya", url: "images/Nonton4.jfif" },
+    { id: 20, cat: "Margo", title: "Other Avatar", desc: "Ini gila ade cantiknya masyaallah", url: "images/Nonton5.jfif" },
 
-    // CAT 5: Special Days
-    { id: 21, cat: "Special", title: "Ultah", desc: "Happy Birthday.", url: "https://images.unsplash.com/photo-1530103862676-de3c9da59af7?w=600" },
-    { id: 22, cat: "Special", title: "Anniv", desc: "Happy Anniv.", url: "https://images.unsplash.com/photo-1464349153735-7db50ed83c84?w=600" },
-    { id: 23, cat: "Special", title: "New Year", desc: "Kembang api.", url: "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?w=600" },
-    { id: 24, cat: "Special", title: "Lebaran", desc: "Maaf lahir batin.", url: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600" },
-    { id: 25, cat: "Special", title: "Wisuda", desc: "Congrats.", url: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600" },
+    // CAT 5: Food
+    { id: 21, cat: "Food", title: "Ultah", desc: "Happy Birthday.", url: "https://images.unsplash.com/photo-1530103862676-de3c9da59af7?w=600" },
+    { id: 22, cat: "Food", title: "Anniv", desc: "Happy Anniv.", url: "https://images.unsplash.com/photo-1464349153735-7db50ed83c84?w=600" },
+    { id: 23, cat: "Food", title: "New Year", desc: "Kembang api.", url: "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?w=600" },
+    { id: 24, cat: "Food", title: "Lebaran", desc: "Maaf lahir batin.", url: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600" },
+    { id: 25, cat: "Food", title: "Wisuda", desc: "Congrats.", url: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600" },
 
     // CAT 6: Pets
     { id: 26, cat: "Pets", title: "Kucing", desc: "Meow.", url: "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600" },
@@ -123,4 +123,5 @@ setInterval(createHeart, 500);
 
 // Run
 init();
+
 
