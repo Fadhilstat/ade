@@ -1,11 +1,11 @@
 // --- DATA GALLERY (7 Kategori x 5 Foto = 35 Item) ---
 const memories = [
-    // CAT 1: First Dates
-    { id: 1, cat: "First Dates", title: "Kopi Pertama", desc: "Awal cerita kita.", url: "https://images.unsplash.com/photo-1516589174184-c68526614460?w=600" },
-    { id: 2, cat: "First Dates", title: "Nonton Bareng", desc: "Filmnya seru.", url: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600" },
-    { id: 3, cat: "First Dates", title: "Jalan Sore", desc: "Langitnya indah.", url: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=600" },
-    { id: 4, cat: "First Dates", title: "Dinner", desc: "Makan enak.", url: "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600" },
-    { id: 5, cat: "First Dates", title: "Photobox", desc: "Gaya aneh.", url: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=600" },
+    // CAT 1: Mini Mania
+    { id: 1, cat: "Mini Mania", title: "Naik Kapal", desc: "Kita sedang naik kapal", url: "images/Korea1.jfif" },
+    { id: 2, cat: "Mini Mania", title: "Ade Cantik Banget", desc: "Seru banget", url: "images/Korea2.jfif" },
+    { id: 3, cat: "Mini Mania", title: "Selfie Time", desc: "Ade masyaallah banget.", url: "images/Korea3.jfif" },
+    { id: 4, cat: "Mini Mania", title: "Pose Lucu", desc: "Selain posenya, ade  lucu banget", url: "images/Korea4.jfif" },
+    { id: 5, cat: "Mini Mania", title: "Berasa Prewed", desc: "Masyaallah bismillah prewed di korea aamiin.", url: "images/Korea5.jfif" },
 
     // CAT 2: Traveling
     { id: 6, cat: "Traveling", title: "Pantai", desc: "Pasir putih.", url: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600" },
@@ -123,3 +123,4 @@ setInterval(createHeart, 500);
 
 // Run
 init();
+
